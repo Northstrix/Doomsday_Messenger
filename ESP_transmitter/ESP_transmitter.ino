@@ -12,7 +12,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(0, 2); // RX, TX
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x26, 16, 2); // I2C address 0x27, 16 column and 2 rows
+LiquidCrystal_I2C lcd(0x27, 16, 2); // I2C address 0x27, 16 column and 2 rows
 #include "GBUS.h"
 #include "serpent.h"
 DES des;
